@@ -5,6 +5,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://andrssss.github.io/Ai_fos",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +21,7 @@
     "tesseract.js": "^6.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^6.2.0"
   }
 }
